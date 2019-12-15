@@ -47,7 +47,7 @@
       "electronInstallerRedhat": {},
       "github_repository": {
         "owner": "sbalci",
-        "name": "histopathology-template"
+        "name": "clinicopathological"
       },
       "windowsStoreConfig": {
         "packageName": "clinicopathological",
