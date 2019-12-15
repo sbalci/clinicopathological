@@ -1,7 +1,7 @@
 # Clinicopathological Data Analysis using R, shiny, and electron
 
 
-See: 
+*See: *
 
 
 https://sbalci.github.io/histopathology-template/
