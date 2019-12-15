@@ -1,0 +1,77 @@
+{
+  "name": "histopathR",
+  "productName": "histopathR",
+  "version": "0.0.1",
+  "description": "Clinicopathological Research Template",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "eslint src --color"
+  },
+  "keywords": [
+    "R",
+    "R-project",
+    "pathology",
+    "histopathology",
+    "clinicopathological",
+    "research",
+    "histopathR"
+  ],
+  "author": "Serdar Balci, MD, Pathologist",
+  "license": "MIT",
+  "private": true,
+  "config": {
+    "forge": {
+      "make_targets": {
+        "win32": [
+          "squirrel"
+        ],
+        "darwin": [
+          "zip"
+        ]
+      },
+      "electronPackagerConfig": {
+        "packageManager": "npm",
+        "afterCopy": [
+          "./prune-r"
+        ]
+      },
+      "electronWinstallerConfig": {
+        "name": "histopathR"
+      },
+      "electronInstallerDebian": {},
+      "electronInstallerRedhat": {},
+      "github_repository": {
+        "owner": "sbalci",
+        "name": "histopathology-template"
+      },
+      "windowsStoreConfig": {
+        "packageName": "histopathR",
+        "name": "clinicopathological"
+      }
+    }
+  },
+  "dependencies": {
+    "acorn": "^7.1.0",
+    "axios": "^0.19.0",
+    "electron-compile": "^6.4.4",
+    "electron-squirrel-startup": "^1.0.0",
+    "execa": "^3.3.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "electron-forge": "^5.2.4",
+    "electron-prebuilt-compile": "4.0.0",
+    "eslint": "^6.7.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "fs-extra": "^8.1.0"
+  }
+}
