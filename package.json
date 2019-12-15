@@ -45,6 +45,7 @@
       },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
+      "repository": "git://github.com/sbalci/clinicopathological.git",
       "github_repository": {
         "owner": "sbalci",
         "name": "clinicopathological"
