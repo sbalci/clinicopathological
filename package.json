@@ -1,5 +1,5 @@
 {
-  "name": "clinicopathological",
+  "name": "histopathR",
   "productName": "clinicopathological",
   "version": "0.0.1",
   "description": "Clinicopathological Research Template",
@@ -23,7 +23,7 @@
   ],
   "author": "Serdar Balci, MD, Pathologist",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "config": {
     "forge": {
       "make_targets": {
@@ -45,7 +45,6 @@
       },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
-      "repository": "git://github.com/sbalci/clinicopathological.git",
       "github_repository": {
         "owner": "sbalci",
         "name": "clinicopathological"
@@ -56,7 +55,6 @@
       }
     }
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {
     "acorn": "^7.1.0",
     "axios": "^0.19.0",
