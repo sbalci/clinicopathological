@@ -1,6 +1,6 @@
 {
-  "name": "histopathR",
-  "productName": "histopathR",
+  "name": "clinicopathological",
+  "productName": "clinicopathological",
   "version": "0.0.1",
   "description": "Clinicopathological Research Template",
   "main": "src/index.js",
@@ -50,7 +50,7 @@
         "name": "histopathology-template"
       },
       "windowsStoreConfig": {
-        "packageName": "histopathR",
+        "packageName": "clinicopathological",
         "name": "clinicopathological"
       }
     }
