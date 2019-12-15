@@ -23,7 +23,7 @@
   ],
   "author": "Serdar Balci, MD, Pathologist",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "config": {
     "forge": {
       "make_targets": {
@@ -41,7 +41,7 @@
         ]
       },
       "electronWinstallerConfig": {
-        "name": "histopathR"
+        "name": "clinicopathological"
       },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
