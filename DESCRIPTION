@@ -1,0 +1,60 @@
+Package: clinicopathological
+Title: Clinicopathological Research Analysis App
+Version: 0.0.0.9000
+Authors@R: person('Serdar', 'Balci', email = 'drserdarbalci@gmail.com', role = c('cre', 'aut'), comment = c(ORCID = "0000-0002-7852-3851"))
+Description: Histopathology Research Template App.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny,
+    golem,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    rio,
+    survival,
+    finalfit,
+    dplyr,
+    lubridate,
+    shiny,
+    lubridate,
+    forcats,
+    finalfit,
+    inspectdf,
+    dplyr,
+    survminer,
+    janitor,
+    tibble,
+    here,
+    readxl,
+    shinyBS,
+    shinyLP,
+    shinythemes,
+    shinyPivot,
+    shinyFeedback,
+    rintrojs,
+    highcharter,
+    purrr,
+    list,
+    stringr,
+    knitr,
+    htmltools,
+    rlang,
+    reactable,
+    vroom,
+    arsenal,
+    correlation,
+    shinyWidgets,
+    plotly,
+    foreign,
+    automagic
+RoxygenNote: 7.0.2
+URL: https://github.com/sbalci/histopathRshiny
+BugReports: https://github.com/sbalci/histopathRshiny/issues
+Suggests: 
+    testthat,
+    rintrojs
+Roxygen: list(markdown = TRUE)

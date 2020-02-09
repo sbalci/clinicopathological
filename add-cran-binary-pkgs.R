@@ -21,6 +21,29 @@ cran_pkgs <- setdiff(unique(c(
   "tibble",
   "here",
   "readxl",
+  
+  "shinyBS",
+  "shinyLP",
+  "shinythemes",
+  "shinyPivot",
+  "shinyFeedback",
+  "rintrojs",
+  "highcharter",
+  "purrr",
+  "list",
+  "stringr",
+  "knitr",
+  "htmltools",
+  "rlang",
+  "reactable",
+  "vroom",
+  "arsenal",
+  "correlation",
+  "shinyWidgets",
+  "plotly",
+  "foreign",
+  
+  
   automagic::get_dependent_packages("shiny")
 )), "automagic")
 
