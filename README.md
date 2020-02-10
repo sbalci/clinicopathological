@@ -134,10 +134,6 @@ shiny app as a seperate process. If successful, it will switch to the
 shiny app once it is loaded. If not successful after 3 trys and error is
 shown.
 
-Loading: ![loading](docs/screenshot-loading.png)
-
-App: ![app](docs/screenshot-app.png)
-
 ## References
 
   - The initial javascript template is based on the template from
