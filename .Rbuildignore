@@ -2,3 +2,17 @@
 ^renv\.lock$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^node_modules$
+Dockerfile
+add-cran-binary-pkgs.R
+clinicopathological.Rproj
+docs
+get-r-mac.sh
+get-r-win.sh
+out
+package-lock.json
+package.json
+prune-r.js
+r-mac
+renv
+src
