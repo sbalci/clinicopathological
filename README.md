@@ -5,13 +5,15 @@
 
 [![Gitpod
 Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/sbalci/clinicopathological)
+[![Launch Rstudio
+Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbalci/clinicopathological/master?urlpath=rstudio)
 <!-- badges: end -->
 
 <https://zenodo.org/account/settings/github/repository/sbalci/clinicopathological>
 
 <https://osf.io/4ukc6/>
 
-*See: *
+**See:**
 
 <https://sbalci.github.io/histopathology-template/>
 
