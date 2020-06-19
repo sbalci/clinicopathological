@@ -59,9 +59,9 @@
     }
   },
   "dependencies": {
-    "@hapi/cryptiles": "^5.0.0",
-    "@hapi/hoek": "^9.0.3",
-    "acorn": "^7.1.0",
+    "@hapi/cryptiles": "^5.1.0",
+    "@hapi/hoek": "^9.0.4",
+    "acorn": "^7.3.1",
     "axios": "^0.19.2",
     "btoa": "^1.2.1",
     "clean-css": "^4.2.3",
@@ -71,13 +71,13 @@
     "electron-squirrel-startup": "^1.0.0",
     "eslint-plugin-react-hooks": "^1.7.0",
     "execa": "^3.4.0",
-    "js-yaml": "^3.13.1",
+    "js-yaml": "^3.14.0",
     "lodash": "^4.17.15",
-    "mem": "^6.0.1",
-    "mime": "^2.4.4",
+    "mem": "^6.1.0",
+    "mime": "^2.4.6",
     "q": "^1.5.1",
-    "semver": "^7.1.2",
-    "uglify-js": "^3.7.7"
+    "semver": "^7.3.2",
+    "uglify-js": "^3.9.4"
   },
   "devDependencies": {
     "babel-plugin-transform-async-to-generator": "^6.24.1",
@@ -86,10 +86,10 @@
     "electron-forge": "^5.2.4",
     "electron-prebuilt-compile": "4.0.0",
     "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.18.3",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.20.0",
     "fs-extra": "^8.1.0"
   }
 }
