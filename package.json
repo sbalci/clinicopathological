@@ -28,6 +28,8 @@
     "pathology",
     "histopathology",
     "clinicopathological",
+    "ClinicoPath",
+    "shiny",
     "research",
     "histopathR",
     "biostatistics",
