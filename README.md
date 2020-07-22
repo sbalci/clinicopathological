@@ -2,7 +2,7 @@
 # Clinicopathological Data Analysis using R, shiny, and electron
 
 <!-- badges: start -->
-
+![CodeQL](https://github.com/sbalci/clinicopathological/workflows/CodeQL/badge.svg)
 [![Gitpod
 Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/sbalci/clinicopathological)
 [![Launch Rstudio
