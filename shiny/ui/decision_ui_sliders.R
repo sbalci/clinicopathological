@@ -1,4 +1,4 @@
 sliderInput("TPslide", label = "TP",
-            value = NULL,
+            value = 50,
             min = 0,
             max = 100)

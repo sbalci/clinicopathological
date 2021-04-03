@@ -6,44 +6,61 @@
 options(repos = "https://cloud.r-project.org")
 
 cran_pkgs <- setdiff(unique(c(
-  "shiny",
-  "lubridate",
-  "forcats",
-  "finalfit",
-  "inspectdf",
-  "dplyr",
-  "survival",
-  "survminer",
-  "finalfit",
-  "glue",
-  "rio",
-  "janitor",
-  "tibble",
-  "here",
-  "readxl",
-  
-  "shinyBS",
-  "shinyLP",
-  "shinythemes",
-  "shinyPivot",
-  "shinyFeedback",
-  "rintrojs",
-  "highcharter",
-  "purrr",
-  "list",
-  "stringr",
-  "knitr",
-  "htmltools",
-  "rlang",
-  "reactable",
-  "vroom",
-  "arsenal",
-  "correlation",
-  "shinyWidgets",
-  "plotly",
-  "foreign",
-  
-  
+  'shiny',
+  'lubridate',
+  'forcats',
+  'finalfit',
+  'inspectdf',
+  'dplyr',
+  'survival',
+  'survminer',
+  'glue',
+  'rio',
+  'janitor',
+  'tibble',
+  'here',
+  'readxl',
+  'shinyBS',
+  'shinyLP',
+  'shinythemes',
+  'shinyPivot',
+  'shinyFeedback',
+  'rintrojs',
+  'highcharter',
+  'purrr',
+  'list',
+  'stringr',
+  'knitr',
+  'htmltools',
+  'rlang',
+  'reactable',
+  'vroom',
+  'arsenal',
+  'correlation',
+  'shinyWidgets',
+  'plotly',
+  'foreign',
+  'ggplot2',
+  'reactlog',
+  'remotes',
+  'psycho',
+  'report',
+  'scales',
+  'ggcorrplot',
+  'kableExtra',
+  'kable',
+  'visdat',
+  'dlookr',
+  'smartEDA',
+  'corx',
+  'papaja',
+  'rpivotTable',
+  'readr',
+  'pacman',
+  'crosstalk',
+  'DT',
+  'gtsummary',
+
   automagic::get_dependent_packages("shiny")
 )), "automagic")
 
@@ -51,7 +68,7 @@ install_bins <- function(cran_pkgs, library_path, type, decompress,
                          remove_dirs = c("help", "doc", "tests", "html",
                                          "include", "unitTests",
                                          file.path("libs", "*dSYM"))) {
-  
+
   installed <- list.files(library_path)
   cran_to_install <- sort(setdiff(
     unique(unlist(
@@ -67,7 +84,7 @@ install_bins <- function(cran_pkgs, library_path, type, decompress,
     apply(downloaded, 1, function(x) decompress(x[2], exdir = library_path))
     unlink(downloaded[,2])
   }
-  z <- lapply(list.dirs(library_path, full.names = TRUE, recursive = FALSE), 
+  z <- lapply(list.dirs(library_path, full.names = TRUE, recursive = FALSE),
               function(x) {
                 unlink(file.path(x, remove_dirs), force=TRUE, recursive=TRUE)
               })
